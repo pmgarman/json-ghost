@@ -23,8 +23,8 @@ body
 
 body
 {
-    color: #aaa;
-    background-color: #38393c;
+    color: #a6e22e;
+    background-color: #272822;
 }
 
 a
@@ -32,7 +32,7 @@ a
     transition: .5s;
     text-decoration: none;
 
-    color: #aaa;
+    color: #a6e22e;
     border-bottom: 1px dashed #888;
 }
 
@@ -41,7 +41,7 @@ a:focus
 {
     text-decoration: none;
 
-    color: #fff;
+    color: #f8f8f2;
 }
 
 img
@@ -55,7 +55,7 @@ pre code
 {
     font-size: 16px;
 
-    color: #91c854;
+    color: #66d9ef;
     border: none;
     border-radius: 0;
     background-color: #333;
@@ -68,7 +68,7 @@ h4,
 h5,
 h6
 {
-    color: #fff;
+    color: #fd971f;
 }
 
 .container
@@ -98,7 +98,7 @@ h6
     height: 100%;
     margin-right: 20px;
 
-    border-right: 1px dashed #888;
+    border-right: 1px dashed #49483e;
 }
 
 .indentation-ellipsis
@@ -110,19 +110,19 @@ h6
 {
     transition: .5s;
 
-    color: #fff;
+    color: #f8f8f2;
 }
 
 .indentation-toggle:hover
 {
     cursor: pointer;
 
-    color: #fff;
+    color: #f8f8f2;
 }
 
 .indentation-toggle:hover > .indentation-line
 {
-    border-color: #fff;
+    border-color: #f8f8f2;
 }
 
 .indentation-content
@@ -151,7 +151,7 @@ h6
 {
     display: block;
 
-    color: #fff;
+    color: #f8f8f2;
 }
 
 .control.inline
@@ -161,12 +161,12 @@ h6
 
 .attribute
 {
-    color: #91c854;
+    color: #f92672;
 }
 
 .value
 {
-    color: #aaa;
+    color: #a6e22e;
 }
 
 /* Small devices (tablets, 768px and up) */

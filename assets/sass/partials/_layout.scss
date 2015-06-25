@@ -119,7 +119,7 @@ h6 {
 }
 
 .control {
-  color: #ffffff;
+  color: $color-link-hover;
   display: block;
 }
 
@@ -128,7 +128,7 @@ h6 {
 }
 
 .attribute {
-  color: #91c854;
+  color: $color-attribute;
 }
 
 .value {
