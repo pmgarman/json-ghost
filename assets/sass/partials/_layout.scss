@@ -1,29 +1,29 @@
 html,
 body {
-  font-family: "Courier";
-  font-size: 18px;
+  font-family: $font-family;
+  font-size: $font-size;
 }
 
 body {
-  background-color: #38393c;
-  color: #aaaaaa;
+  background-color: $color-background;
+  color: $color-text;
 }
 
 a {
-  color: #aaaaaa;
+  color: $color-link;
   text-decoration: none;
   border-bottom: 1px dashed #888;
 
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  -moz-transition: .5s;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -o-transition: $transition-time;
+  -ms-transition: $transition-time;
+  -moz-transition: $transition-time;
+  -webkit-transition: $transition-time;
+  transition: $transition-time;
 }
 
 a:hover,
 a:focus {
-  color: #ffffff;
+  color: $color-link-hover;
   text-decoration: none;
 }
 
@@ -32,19 +32,13 @@ img {
 }
 
 code,
-pre {
-  background-color: #333333;
+pre,
+pre code {
+  background-color: $color-code-background;
   border: none;
   border-radius: 0;
-}
-
-code {
-  color: #91c854;
-}
-
-pre code {
-  font-size: 16px;
-  color: #ffffff;
+  font-size: $code-font-size;
+  color: $color-code;
 }
 
 h1,
@@ -53,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ffffff;
+  color: $color-heading;
 }
 
 .container {
@@ -74,9 +68,9 @@ h6 {
 }
 
 .indentation-line {
-  border-right: 1px dashed #888;
+  border-right: 1px dashed $color-border;
   height: 100%;
-  margin-right:20px;
+  margin-right: 20px;
 }
 
 .indentation-ellipsis {
@@ -84,32 +78,32 @@ h6 {
 }
 
 .indentation-toggle {
-  color: #ffffff;
+  color: $color-link-hover;
 
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  -moz-transition: .5s;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -o-transition: $transition-time;
+  -ms-transition: $transition-time;
+  -moz-transition: $transition-time;
+  -webkit-transition: $transition-time;
+  transition: $transition-time;
 }
 
 .indentation-toggle:hover {
-  color: #ffffff;
+  color: $color-link-hover;
   cursor: pointer;
 }
 
 .indentation-toggle:hover > .indentation-line {
-  border-color: #ffffff;
+  border-color: $color-link-hover;
 }
 
 .indentation-content {
   display: block;
 
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  -moz-transition: .5s;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -o-transition: $transition-time;
+  -ms-transition: $transition-time;
+  -moz-transition: $transition-time;
+  -webkit-transition: $transition-time;
+  transition: $transition-time;
 }
 
 .indentation-container.collapsed .indentation-content {
@@ -138,7 +132,7 @@ h6 {
 }
 
 .value {
-  color: #aaaaaa;
+  color: $color-text;
 }
 
 

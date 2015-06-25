@@ -1,4 +1,18 @@
 {
   "name": "JSON",
-  "version": "1.0.2"
+  "version": "1.1.0",
+  "devDependencies": {
+	"grunt": "latest",
+	"grunt-autoprefixer": "latest",
+	"grunt-combine-media-queries": "latest",
+	"grunt-contrib-connect": "latest",
+	"grunt-contrib-cssmin": "latest",
+	"grunt-contrib-imagemin": "latest",
+	"grunt-contrib-jshint": "latest",
+	"grunt-contrib-uglify": "latest",
+	"grunt-contrib-watch": "latest",
+	"grunt-csscomb": "latest",
+	"grunt-sass": "latest",
+	"load-grunt-tasks": "latest"
+  }
 }
